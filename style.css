@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	background-color: darkgreen;
+  	font-family: sans-serif;
+}
+
+/*Nav Bar*/
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+nav a.active {
+  background-color: green;
+  color: white;
+}
+
+/*About*/
+
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.Ben{
+	background: black;
+	color: darkgreen;
+	padding: 3px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-bottom: 0;
+}
+.bio{
+	background: black;
+	color: darkgreen;
+	font-size: 1.2rem;
+	width: 50%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 0;
+}
+/*Hover Effect*/
+.img-Ben:hover + .Ben{
+	color: lime;
+}
+.Ben:hover + .bio{
+	color: lime;
+}
+
+/*Aliens*/
+.container{
+	margin: 10px;
+	background: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.container h1{
+	color: darkgreen;
+	font-size: 2rem;
+}
+.aliens{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.alien {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 3px;
+  background-color: #333;
+  cursor: pointer;
+}
+.alien h4{
+    display: flex;
+    justify-content: center;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	background: #333;
+	color: black;
+}
+.alien:hover h4{
+	color: lime;
+}
+
+/*simple footer*/
+footer{
+	font-size: 1.5em;
+	bottom: 0;
+	background-color: black;
+	color: lime;
+	text-align: center;
+	font-family: sans-serif;
+	width: 100%;
+}
+#heart{
+	color: red;
+	font-size: 1.2em;
+}

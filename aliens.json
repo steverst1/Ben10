@@ -1,0 +1,42 @@
+[
+    {
+        "Alien" : "FOUR-ARMS", 
+        "Power" : "Shock Waves"
+    },
+    {
+        "Alien" : "HEATBLAST", 
+        "Power" : "Flight Fire"
+    },
+    {
+        "Alien" : "DIAMONDHEAD", 
+        "Power" : "Generate crystals"
+    },
+    {
+        "Alien" : "STINKFLY", 
+        "Power" : "Flight Toxic gas"
+    },
+    {
+        "Alien" : "CANNONBOLT", 
+        "Power" : "Transforms in to a sphere "
+    },
+    {
+        "Alien" : "XLR8", 
+        "Power" : "Accelerated Thinking and Water Running"
+    },
+    {
+        "Alien" : "UPGRADE", 
+        "Power" : "Shapeshifting regeneration"
+    },
+    {
+        "Alien" : "WILDVINE", 
+        "Power" : "Elasticity and body alteration"
+    },
+    {
+        "Alien" : "GREY-MATTER", 
+        "Power" : "sticky skin and Wall crawling"
+    },
+    {
+        "Alien" : "RIPJAWS", 
+        "Power" : "Underwater breathing"
+    }
+]
